@@ -49,7 +49,7 @@ For contrast, highlight colours will be used:
 #D39447
 #714844
 
-![Colours](docs/colour-pallette.png)
+![Colours](/docs/colours.png)
 
 These colours have been chosen to symbolise professionalism, while the orange and deep red hark to vintage recording equipment. They are a visual representation of a cosy and inviting space in which clients can relax and give their best performance. They are also representative of the Studio space Chris uses to record and mix. 
 
@@ -62,11 +62,11 @@ A hero image will be used on the home page which which will  draw the user’s a
 
 ## Wireframes
 
-[Mobile Wireframe](docs/Phone-Wireframe.pdf)
+[Mobile Wireframe](/docs/phonewireframe.pdf)
 
-[Tablet Wireframe](docs/Tablet-Wireframe.pdf)
+[Tablet Wireframe](/docs/tabletwireframe.pdf)
 
-[Desktop Wireframe](docs/Desktop-Wireframe.pdf)
+[Desktop Wireframe](/docs/desktopwireframe.pdf)
 
 
 
