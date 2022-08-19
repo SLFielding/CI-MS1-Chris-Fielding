@@ -1,10 +1,13 @@
 # Chris Fielding Music Producer Website
 
+[View the live project here]()
+
 ## Table of Contents
 - Overview and Goals
 - Design and UX
 - Pages
-- Functionality
+- Features
+- Technologies Used
 - Validation and Testing
 - Deployment
 - References
@@ -62,19 +65,29 @@ A hero image will be used on the home page which which will  draw the user’s a
 
 ## Wireframes
 
-[Mobile Wireframe](/docs/phonewireframe.pdf)
+Mobile Wireframe [view](/docs/phonewireframe.pdf)
 
-[Tablet Wireframe](/docs/tabletwireframe.pdf)
+Tablet Wireframe [view](/docs/tabletwireframe.pdf)
 
-[Desktop Wireframe](/docs/desktopwireframe.pdf)
+Desktop Wireframe [view](/docs/dwireframe.pdf)
 
 
 
 ## Pages
 
+The website has the following pages
+
+- Home/ About
+- Portfolio
+- Contact
 
 
-## Functionality
+## Features
+
+- Responsive on various screens
+- Interactive elements
+
+## Technologies Used
 
 ## Validation and Testing
 
