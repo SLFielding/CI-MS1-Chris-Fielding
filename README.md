@@ -94,3 +94,4 @@ The website has the following pages
 ## Deployment
 
 ## References
+-info on how to change default bootstrap toggler https://stackoverflow.com/questions/42586729/how-can-i-change-the-bootstrap-4-navbar-button-icon-color

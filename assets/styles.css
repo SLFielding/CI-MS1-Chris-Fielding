@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------------------------------------------------navbar------------*/
+
+nav {
+    background: var(--dark)
+}
+
+
+.navbar-brand {
+    font-family: "oswald";
+    font-size: 1.5em;
+    color:var(--white);
+}
+
+a:hover {
+    color: var(--white);
+}
+
+
+.nav-link {
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 1.2em;
+    color: var(--grey);
+}
+
+
+/* -------------------------------------------------colour functions------------*/
+
+:root {
+    --dark: #2e2f32;
+    --white: #F1F0E9;
+    --grey: #888786;
+    --orange: #d39447;
+    --red: #714844;
+  }
+
+/* -------------------------------------------------general styles------------*/
+
+/* -------------------------------------------------callout container------------*/
+
+.callout-container {
+    width: 100%;
+    background-image: url(/assets/images/mixing-console.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.callout-text-block{
+    padding-left: 50px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.callout-text {
+    font-family: "oswald";
+    font-weight: 300;
+    font-size: 5em;
+    color: var(--white);
+}
+
+.callout-container button {
+    color: var(--white);
+    background-color: var(--orange);
+    border-color: var(--orange);
+    margin-top: 30px;
+    margin-bottom: 100px;
+    max-width: 200px;
+    font-family: "oswald"
+
+}
+
+.callout-container button:hover {
+    color: var(--orange);
+    background-color: var(--red);
+    border-color: var(--red)
+}
