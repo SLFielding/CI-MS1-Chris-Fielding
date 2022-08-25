@@ -95,3 +95,5 @@ The website has the following pages
 
 ## References
 -info on how to change default bootstrap toggler https://stackoverflow.com/questions/42586729/how-can-i-change-the-bootstrap-4-navbar-button-icon-color
+
+https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h

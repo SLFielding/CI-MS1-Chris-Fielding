@@ -44,43 +44,94 @@ a:hover {
 
 /* -------------------------------------------------general styles------------*/
 
+
+/* -------------------------------------------------hero image------------*/
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/assets/images/skyhammer1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* -------------------------------------------------callout container------------*/
 
 .callout-container {
     width: 100%;
-    background-image: url(/assets/images/mixing-console.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
 }
 
 .callout-text-block{
     padding-left: 50px;
     padding-top: 200px;
-    display: flex;
-    flex-direction: column;
 }
 .callout-text {
     font-family: "oswald";
-    font-weight: 300;
-    font-size: 5em;
+    font-weight: 400;
+    font-size: 4.5em;
     color: var(--white);
 }
 
-.callout-container button {
+.btn {
     color: var(--white);
     background-color: var(--orange);
     border-color: var(--orange);
     margin-top: 30px;
     margin-bottom: 100px;
-    max-width: 200px;
+    max-width: 300px;
+    min-width: 200px;
     font-family: "oswald"
 
 }
 
-.callout-container button:hover {
+.btn:hover {
     color: var(--orange);
-    background-color: var(--red);
-    border-color: var(--red)
+    background-color:transparent ;
+    border-color: var(--orange)
 }
+
+
+
+/* -------------------------------------------------footer------------*/
+
+footer {
+    height: 100px;
+  }
+  
+  .social-networks {
+    text-align: center;
+  }
+  
+  .social-networks li {
+    display: inline;
+  }
+  
+  .social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 10px;
+    color: var(--grey);
+  }
+
+  .social-networks i:hover {
+    opacity: 0.8;
+  }
+
+  .copyright {
+    font-family: "roboto";
+    font-weight: 100;
+    font-size: 10px;
+    color:var(--grey);
+    text-align: center;
+    margin-top: -10;
+  }
+
+  /* -------------------------------------------------media queries------------*/
+
+  /* to make contact button centre screen on smaller devices */
+
+  @media only screen and (max-width: 600px){
+    .btn {
+        clear: both;
+        text-align: center;
+        width: 100%;
+    }
+  }
