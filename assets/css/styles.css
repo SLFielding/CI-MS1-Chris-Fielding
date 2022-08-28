@@ -20,8 +20,12 @@ nav {
     color:var(--white);
 }
 
-a:hover {
+nav a:hover {
     color: var(--white);
+}
+
+#active {
+  color: var(--white);
 }
 
 
@@ -29,7 +33,7 @@ a:hover {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
-    color: --grey;
+    color: var(--grey);
 }
 
 .fa-play:hover {
@@ -49,6 +53,7 @@ a:hover {
 /* -------------------------------------------------general styles------------*/
 
 
+
 /* -------------------------------------------------hero image------------*/
 
 .hero-image {
@@ -61,10 +66,12 @@ a:hover {
 
 .callout-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.callout-text-block{
-    padding-left: 50px;
+.callout-text-block {
     padding-top: 200px;
     max-width: 90%;
 }
@@ -81,11 +88,10 @@ a:hover {
     background-color: var(--orange);
     border-color: var(--orange);
     margin-top: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
     max-width: 90%;
-    min-width: 200px;
+    min-width: 250px;
     font-family: "oswald" , sans-serif;
-    align-items: center;
 }
 
 .btn:hover {
@@ -94,36 +100,39 @@ a:hover {
     border-color: var(--orange);
 }
 
-/* -------------------------------------------------about container------------*/
+/* -------------------------------------------------about section------------*/
 .about-section {
-  background-color: var(--dark);
-  overflow: hidden;
-  clear: both;
-}
-
-.container {
-  display: flex;
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(/assets/images/skyhammer3.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .about-bio {
   font-family: 'Barlow Condensed', sans-serif;
-  color: var(--white);
-  margin-top: 50px;
-  margin-left: 50px;
+  color: var(--light);
+  text-align: justify;
+  max-width: 80%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bio-image {
-  padding: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  max-width: 50%;
+  padding: 20px 10px;
+  display: block;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 7%;
+
 }
 /* -------------------------------------------------footer------------*/
 
 footer {
     height: 100px;
     clear: both;
+    background-color: #19191b;
   }
   
   .social-networks {
@@ -145,32 +154,136 @@ footer {
     opacity: 0.8;
   }
 
+  .social-networks a:hover, 
+  .social-networks a:visited, 
+  .social-networks a:link, 
+  .social-networks a:active {
+    text-decoration: none;
+  } 
+
   .copyright {
     font-family: sans-serif;
     font-weight: 100;
     font-size: 10px;
     color:var(--grey);
     text-align: center;
-    margin-top: -10;
+    margin: 0;
+  }
+
+  footer ul {
+    margin: 0;
   }
 
   /* -------------------------------------------------Portfolio Page------------*/
 
+  .portfolio-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1;
+  }
+
+  .portfolio-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(/assets/images/skyhammer1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .portfolio-text a{
+    color: var(--orange);
+  }
+
+  .portfolio-text a:hover, 
+  .portfolio-text a:visited, 
+  .portfolio-text a:link, 
+  .portfolio-text a:active {
+    text-decoration: none;
+}
   
   /* -------------------------------------------------Portfolio Grid------------*/
+
   .grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-gap: 20px;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .grid-container img {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
   }
 
   /* -------------------------------------------------media queries------------*/
 
-  /* to make contact button centre screen on smaller devices */
+  /* Home Page changes for 480px up */
 
-  @media only screen and (max-width: 600px){
-    .btn {
-        width: 90%;
+  @media only screen and (min-width: 480px){
+    .contact-button {
+        margin-left: 50px;
+    }
+    .callout-text-block {
+        width: 100%;
+        margin-left: 50px;
+    }
+  }
+
+  /* to remove elements from flex */
+  @media screen and (min-width: 480px) {
+    .callout-container {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+    .about-section {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      clear: both;
+  
+    }
+
+    .about-bio { 
+      width: 30rem;
+      font-size: 1.2em;
+    }
+
+    .bio-image {
+      width: 48%;
+    }
+  } 
+
+  @media screen and (min-width: 1025px) {
+    .about-bio {
+      font-size: 1.5rem;
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+    .about-container {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  /* Portfolio Page changes for different screen sizes */
+  @media screen and (min-width: 672px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+  }
+
+  @media screen and (min-width: 1025px) {
+    .grid-container {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
     }
   }
