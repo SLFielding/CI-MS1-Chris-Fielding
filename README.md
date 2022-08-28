@@ -96,4 +96,8 @@ The website has the following pages
 ## References
 -info on how to change default bootstrap toggler https://stackoverflow.com/questions/42586729/how-can-i-change-the-bootstrap-4-navbar-button-icon-color
 
-https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h
+How to darken an image: https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h
+
+CSS Grid Tutorial: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
+
+Var functions in CSS tutorial https://www.w3schools.com/css/css3_variables.asp

@@ -29,7 +29,7 @@ a:hover {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
-    color: var(--grey);
+    color: --grey;
 }
 
 .fa-play:hover {
@@ -152,6 +152,17 @@ footer {
     color:var(--grey);
     text-align: center;
     margin-top: -10;
+  }
+
+  /* -------------------------------------------------Portfolio Page------------*/
+
+  
+  /* -------------------------------------------------Portfolio Grid------------*/
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
   }
 
   /* -------------------------------------------------media queries------------*/
