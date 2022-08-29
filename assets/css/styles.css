@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1rem;
 }
 
 /* -------------------------------------------------navbar------------*/
@@ -43,12 +42,17 @@ nav a:hover {
 :root {
     --dark: #19191b;
     --white: #F1F0E9;
-    --grey: #888786;
-    --orange: #d39447;
+    --grey: #AFAFA7;
+    --orange: #FB9C42;
     --red: #83423c;
   }
 
 /* -------------------------------------------------general styles------------*/
+
+body {
+  color: var(--white);
+  background-color: var(--dark);
+}
 
 p {
   font-size: 1.2rem;
@@ -58,21 +62,35 @@ p {
   font-family: "Barlow Condensed" , sans-serif;
 }
 
+h1 {
+  font-size: 3rem;
+  font-family: "Oswald" , sans-serif;
+  font-weight: 500;
+  padding: 1rem;
+  margin-bottom :0;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
 body {
   color: var(--white);
   background-color: var(--dark);
 }
 
-hr {
+.hr-bar {
   border: 2px solid var(--red);
   margin-left: auto;
   margin-right: auto;
-  width: 160px;
+  width: 140px;
 }
 
 .text-center {
   text-align: center;
 }
+
+
 /* -------------------------------------------------hero image------------*/
 
 .hero-image {
@@ -103,7 +121,7 @@ hr {
 }
 
 .home-contact-button {
-  color: var(--white);
+  color: var(--dark);
   background-color: var(--orange);
   border: 1px solid var(--orange);
   border-radius: 0.25rem;
@@ -142,15 +160,6 @@ hr {
   width: 30rem;;
 }
 
-.about-bio h1 {
-  font-size: 3rem;
-  font-family: "Oswald" , sans-serif;
-  font-weight: 500;
-  text-align: center;
-  padding: 1rem;
-  margin-bottom :0;
-}
-
 .bio-image {
   max-width:80%;
   max-height:80%;
@@ -165,17 +174,8 @@ hr {
 
 /* -------------------------------------------------Portfolio Page------------*/
 
-.portfolio-text h1 {
-  font-size: 3rem;
-  font-family: "Oswald" , sans-serif;
-  font-weight: 500;
-  text-align: center;
-  padding: 1rem;
-}
-
 .portfolio-text p {
   margin: 0;
-  line-height: 0;
   text-align: center;
 }
 
@@ -220,9 +220,9 @@ hr {
   background-repeat: no-repeat;;
   margin-right: auto;
   margin-left: auto;
+  padding: 2rem;
   width: 100%;
   font-family: 'Barlow Condensed', sans-serif;
-  padding: 50px 25px 100px;
 }
 
 .contact-form {
@@ -230,8 +230,8 @@ hr {
   max-width: 500px;
   margin-right: auto;
   margin-left: auto;
-  padding: 30px;
-  border-radius: 1%;
+  padding: 1.5rem;
+  border-radius: 1%
 }
 
 label {
@@ -243,12 +243,12 @@ label {
 
 .text-input {
   width: 100%;
-  margin-bottom: 3px;
   background-color: transparent;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   color: var(--white);
-  padding: 5px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .text-input:active {
@@ -287,7 +287,7 @@ label {
 }
 
 .contact-button {
-  color: var(--white);
+  color: var(--dark);
   background-color: var(--orange);
   border: 1px solid var(--orange);
   border-radius: 0.25rem;
@@ -337,7 +337,7 @@ label {
 .copyright p {
   font-family: sans-serif;
   font-weight: 100;
-  font-size: 10px;
+  font-size: 1rem;
   color:var(--grey);
   text-align: center;
   margin: 0;
