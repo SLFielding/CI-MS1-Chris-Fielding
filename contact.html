@@ -38,16 +38,46 @@
 
 <!--Contact section-->
 
-<section class="contact-section">
-    <div class="contact-container">
+<section class="contact-container">
+      <h1 class="text-center">Get in touch</h1>
+      <div class="contact-form">
+        <form method="POST" form action="#">
 
+          <label for="name">Name</label>
+          <input type="text" name="full_name" id="name" class="text-input" required/>
+          
+          <label for="email">Email</label>
+          <input type="email" name="email_address" id="email" class="text-input" required/>
+
+          <h3 class="text-center">What do you need?</h3>
+
+          <div class="form-radio">
+            <label for="production">Production</label>
+            <input type="radio" name="service_selection" id="road" value="road" required/>
+            
+            <label for="mixing">Mixing</label>
+            <input type="radio" name="service_selection" id="mixing" value="mixing"/>
+            
+            <label for="mastering">Mastering</label>
+            <input type="radio" name="service_selection" id="mastering" value="mastering"/>
+          </div>
+
+          <textarea class="input-text-area" placeholder="A few details about the project would be great!"></textarea>
+          
+          <div class="contact-button">
+            <button type="button" class="btn">Get in touch</button>
+          </div>
+         </form>
+
+        </form>
+      </div>
     </div>
 </section>
   
 
 
 <!--Footer section-->
-<footer>
+<footer class="footer">
     <ul class= "social-networks">
       <li><a href= "https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> </a></li>
       <li><a href= "https://twitter.com/chrisjfielding" target="_blank"><i class="fa-brands fa-twitter"></i> </a></li>
