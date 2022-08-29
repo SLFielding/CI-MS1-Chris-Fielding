@@ -106,11 +106,13 @@ body {
   height: 90vh;
   display: flex;
   flex-direction: column;
-  padding: 275px 25px 125px;
+  padding: 125px 25px 125px;
 }
 
 .callout-text-block {
   max-width: 90%;
+  max-height: 90%;
+  align-items: center;
 }
 
 .callout-text {
@@ -125,9 +127,10 @@ body {
   background-color: var(--orange);
   border: 1px solid var(--orange);
   border-radius: 0.25rem;
-  margin-top: 30px;
+  margin: 1rem;
   width: 100%;
   font-family: "oswald" , sans-serif;
+  display: inline;
 }
 
 .home-contact-button:hover {
@@ -223,6 +226,7 @@ body {
   padding: 2rem;
   width: 100%;
   font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.2rem;
 }
 
 .contact-form {
@@ -237,7 +241,6 @@ body {
 label {
   width: 90%;
   display: block;
-  font-size: 1.2 rem;
   margin-top: 5px;
 }
 
@@ -257,22 +260,23 @@ label {
 }
 
 .contact-form h3 {
+  font-family: "oswald" , sans-serif;
   padding: 20px;
 }
 
 .form-radio {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 30px;
 }
 
 .input-radio {
   min-height: 1.1rem;
   min-width: 1.1rem;
-  margin-right: 3px;
-  margin-left: 3px;
-  width: 90%;
+  margin-right: 1px;
+  margin-left: 1px;
+  width: 50%;
 }
 
 .input-text-area {
