@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,6 @@
 nav {
     background: var(--dark)
 }
-
 
 .navbar-brand {
     font-family: "oswald" , sans-serif;
@@ -27,7 +25,6 @@ nav a:hover {
 #active {
   color: var(--white);
 }
-
 
 .nav-link {
     font-family: 'Barlow Condensed', sans-serif;
@@ -52,7 +49,24 @@ nav a:hover {
 
 /* -------------------------------------------------general styles------------*/
 
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 1rem;
+  font-family: "Barlow Condensed" , sans-serif;
+}
 
+body {
+  color: var(--white);
+}
+
+hr {
+  border: 2px solid var(--red);
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
+}
 
 /* -------------------------------------------------hero image------------*/
 
@@ -101,6 +115,15 @@ nav a:hover {
 }
 
 /* -------------------------------------------------about section------------*/
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
 .about-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(/assets/images/skyhammer3.png);
   background-position: left;
@@ -112,21 +135,85 @@ nav a:hover {
   font-family: 'Barlow Condensed', sans-serif;
   color: var(--light);
   text-align: justify;
-  max-width: 80%;
-  padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 30rem;;
+}
+
+.about-bio h1 {
+  font-size: 3rem;
+  font-family: "Oswald" , sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom :0;
 }
 
 .bio-image {
-  padding: 20px 10px;
-  display: block;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 7%;
-
+  max-width:80%;
+  max-height:80%;
+  padding: 1rem;
 }
+
+.bio-image img {
+  max-width:100%;
+  max-height:100%;
+  border-radius: 5%;
+}
+
+/* -------------------------------------------------Portfolio Page------------*/
+
+.portfolio-text h1 {
+  font-size: 3rem;
+  font-family: "Oswald" , sans-serif;
+  font-weight: 500;
+  text-align: center;
+  padding: 1rem;
+}
+
+.portfolio-text p {
+  margin: 0;
+  line-height: 0;
+  text-align: center;
+}
+
+.portfolio-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(/assets/images/skyhammer1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portfolio-text a{
+  color: var(--orange);
+}
+
+.portfolio-text a:hover, 
+.portfolio-text a:visited, 
+.portfolio-text a:link, 
+.portfolio-text a:active {
+  text-decoration: none;
+}
+
+/* -------------------------------------------------Portfolio Grid------------*/
+
+.grid-container {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-container img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+
+/* -------------------------------------------------contact page------------*/
+
+.contact-section
+
+.contact-container
+
 /* -------------------------------------------------footer------------*/
 
 footer {
@@ -161,7 +248,7 @@ footer {
     text-decoration: none;
   } 
 
-  .copyright {
+  .copyright p {
     font-family: sans-serif;
     font-weight: 100;
     font-size: 10px;
@@ -172,51 +259,6 @@ footer {
 
   footer ul {
     margin: 0;
-  }
-
-  /* -------------------------------------------------Portfolio Page------------*/
-
-  .portfolio-text {
-    font-family: 'Barlow Condensed', sans-serif;
-    color: var(--white);
-    text-align: center;
-    text-decoration: none;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 1;
-  }
-
-  .portfolio-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(/assets/images/skyhammer1.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .portfolio-text a{
-    color: var(--orange);
-  }
-
-  .portfolio-text a:hover, 
-  .portfolio-text a:visited, 
-  .portfolio-text a:link, 
-  .portfolio-text a:active {
-    text-decoration: none;
-}
-  
-  /* -------------------------------------------------Portfolio Grid------------*/
-
-  .grid-container {
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-
-  .grid-container img {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
   }
 
   /* -------------------------------------------------media queries------------*/
@@ -247,31 +289,9 @@ footer {
       background-repeat: no-repeat;
       overflow: hidden;
       clear: both;
-  
+      }
     }
 
-    .about-bio { 
-      width: 30rem;
-      font-size: 1.2em;
-    }
-
-    .bio-image {
-      width: 48%;
-    }
-  } 
-
-  @media screen and (min-width: 1025px) {
-    .about-bio {
-      font-size: 1.5rem;
-    }
-  }
-
-  @media screen and (min-width: 480px) {
-    .about-container {
-      display: flex;
-      justify-content: space-around;
-    }
-  }
 
   /* Portfolio Page changes for different screen sizes */
   @media screen and (min-width: 672px) {
