@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1rem;
 }
 
 /* -------------------------------------------------navbar------------*/
@@ -44,7 +45,7 @@ nav a:hover {
     --white: #F1F0E9;
     --grey: #888786;
     --orange: #d39447;
-    --red: #714844;
+    --red: #83423c;
   }
 
 /* -------------------------------------------------general styles------------*/
@@ -83,39 +84,38 @@ hr {
 /* -------------------------------------------------callout container------------*/
 
 .callout-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding: 275px 25px 125px;
 }
 
 .callout-text-block {
-    padding-top: 200px;
-    max-width: 90%;
+  max-width: 90%;
 }
 
 .callout-text {
-    font-family: "Oswald" , sans-serif;
-    font-weight: 400;
-    font-size: 4.5em;
-    color: var(--white);
+  font-family: "Oswald" , sans-serif;
+  font-weight: 400;
+  font-size: 4.5em;
+  color: var(--white);
 }
 
-.btn {
-    color: var(--white);
-    background-color: var(--orange);
-    border-color: var(--orange);
-    margin-top: 30px;
-    margin-bottom: 90px;
-    max-width: 90%;
-    min-width: 250px;
-    font-family: "oswald" , sans-serif;
+.home-contact-button {
+  color: var(--white);
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+  border-radius: 0.25rem;
+  margin-top: 30px;
+  width: 100%;
+  font-family: "oswald" , sans-serif;
 }
 
-.btn:hover {
-    color: var(--orange);
-    background-color:transparent ;
-    border-color: var(--orange);
+.home-contact-button:hover {
+  color: var(--orange);
+  background-color:transparent ;
+  border-color: var(--orange);
 }
 
 /* -------------------------------------------------about section------------*/
@@ -222,7 +222,7 @@ hr {
   margin-left: auto;
   width: 100%;
   font-family: 'Barlow Condensed', sans-serif;
-  padding: 25px;
+  padding: 50px 25px 100px;
 }
 
 .contact-form {
@@ -262,15 +262,22 @@ label {
 
 .form-radio {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.input-radio {
+  min-height: 1.1rem;
+  min-width: 1.1rem;
+  margin-right: 3px;
+  margin-left: 3px;
+  width: 90%;
 }
 
 .input-text-area {
   width: 100%;
-  min-height: 200px;
+  min-height: 250px;
   margin-bottom: 3px;
   background-color: transparent;
   border: 1px solid #ced4da;
@@ -279,16 +286,17 @@ label {
   padding: 5px;
 }
 
-.contact-btn {
+.contact-button {
   color: var(--white);
   background-color: var(--orange);
-  border-color: var(--orange);
+  border: 1px solid var(--orange);
+  border-radius: 0.25rem;
   margin-top: 30px;
   width: 100%;
   font-family: "oswald" , sans-serif;
 }
 
-.contact-btn:hover {
+.contact-button:hover {
   color: var(--orange);
   background-color:transparent ;
   border-color: var(--orange);
@@ -341,22 +349,20 @@ footer ul {
 
 /* -------------------------------------------------media queries------------*/
 
-/* Home Page changes for 480px up */
+/* Home Page*/
 
-@media only screen and (min-width: 480px){
-  .btn {
-      margin-left: 50px;
-  }
-  .callout-text-block {
-      width: 100%;
-      margin-left: 50px;
-  }
-}
-
-/* to remove elements from flex */
-@media screen and (min-width: 480px) {
+/* to remove elements from flex and align left*/
+@media screen and (min-width: 481px) {
   .callout-container {
     display: block;
+  }
+
+  .home-contact-button {
+    width: 16rem;
+  }
+
+  .callout-text {
+    font-size: 6rem;
   }
 }
 
@@ -372,16 +378,20 @@ footer ul {
 
 
 /* Portfolio Page changes for different screen sizes */
-@media screen and (min-width: 672px) {
+@media screen and (min-width: 781px) {
   .grid-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1021px) {
   .grid-container {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
 }
+
+@media screen and (max-width: 1020px) { /* Large Desktop */ }
+@media screen and (max-width: 780px) { /* tablet */ }
+@media screen and (max-width: 480px) { /* mobile */ }
