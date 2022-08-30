@@ -311,6 +311,7 @@ label {
 
 .footer-styles {
   clear: both;
+  background-color: var(--dark);
 }
   
 .social-networks {
