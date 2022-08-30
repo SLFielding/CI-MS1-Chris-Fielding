@@ -51,6 +51,7 @@ nav a:hover {
 
 body {
   color: var(--white);
+  background-color: var(--dark);
 }
 
 p {
@@ -71,11 +72,6 @@ h1 {
 
 h2 {
   font-size: 1.6rem;
-}
-
-body {
-  color: var(--white);
-  
 }
 
 .hr-bar {
