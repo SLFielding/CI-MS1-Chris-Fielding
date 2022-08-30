@@ -51,7 +51,6 @@ nav a:hover {
 
 body {
   color: var(--white);
-  background-color: var(--dark);
 }
 
 p {
@@ -76,7 +75,7 @@ h2 {
 
 body {
   color: var(--white);
-  background-color: var(--dark);
+  
 }
 
 .hr-bar {
@@ -94,7 +93,7 @@ body {
 /* -------------------------------------------------hero image------------*/
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(assets/images/skyhammer1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../images/skyhammer1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -183,7 +182,7 @@ body {
 }
 
 .portfolio-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(/assets/images/skyhammer1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(/images/skyhammer1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
