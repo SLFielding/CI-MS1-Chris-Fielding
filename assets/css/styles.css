@@ -94,7 +94,7 @@ body {
 /* -------------------------------------------------hero image------------*/
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(/assets/images/skyhammer1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(assets/images/skyhammer1.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
