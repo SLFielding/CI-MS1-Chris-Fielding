@@ -1,6 +1,14 @@
 # Chris Fielding Music Producer Website
 
-[View the live project here]()
+This website is for Music Producer Chris Fielding. It is built to be draw for potential clients, who can find out information on, and get in touch with Chris to work with him.
+
+## Live Site
+
+[View the live project here](https://slfielding.github.io/CI-MS1-Chris-Fielding/index.html#About)
+
+## Repository
+
+[View the repositiry here](https://github.com/SLFielding/CI-MS1-Chris-Fielding)
 
 ## Table of Contents
 - Overview and Goals
@@ -15,8 +23,6 @@
 ## Overview and Goals
 ### Project Goals
 
-This is a Code Institute Milestone 1 Project on the Full Stack Course. The project focuses on Front End Development Skills using HTML5 and CSS3.
-
 The project is to build a website for Music Producer Chris Fielding.  Chris is in need of a website which will be the main port and call for new clients. Whilst existing clients are likely to send him an email, new clients should have the opportunity to find out information on Chris and be able to send him an email from the site. Most users visiting the site will be looking to hire Chris for Producing, Mixing or Mastering. Every project has to be priced individually dependent on client specifications, and this is done via email or phone.
 The site should have intuitive navigation, so that enquiries are able to be submitted to Chris efficiently.  It should also be responsive across multiple well known devices including phone, tablet and desktop.
 
@@ -28,36 +34,28 @@ The website will look professional and this will also contribute to increased bo
 ## Design and UX
 
 ### User Stories
- -  I am in a heavy metal band, and I want to to be able to see what projects Chris has worked on to see if his sound would suit our music. It would be good to be able to see the albums he has worked on, maybe a link to some songs or music reel to get a feel for his style.
 
- - I am  a local singer looking to record my first EP, and I would like to find out how the process works with Chris. As it is the first time I will be doing this, I am looking for basic information on what Chris can offer and the studio he works from.  I would like to know what gear the studio has and anything else I might need.
+As a user I would like to be able to:
 
- - I am a musician and would like to book Chris to record our next album. My band has worked with him in the past, and would like to be able to see his availability easily.  It is hard to get the whole band agreed on dates with all our busy lives, and there can be a lot of back and forth just finding initial dates!
+- Understand the purpose of the site upon landing on the homepage
+- Navigate to the various pages easily and intuitively
+- Be able to contact Chris easily
+- Find out about Chris' current work
+- Learn about Chris' background
+- Be inspired by the imagery
+- Find social links easily to follow/contact Chris
 
- -  I am in a one man Black Metal band from the forests of Norway, and I have self-recorded my first album. I have heard that Chris offers remote mixing which I am very interested in as I would like a better sound. I can’t find any info about this on his social media pages and I would like some confirmation on the process before I send him an email.
-
- -  I have a podcast featuring producers, and we would like to do a feature on Chris. I would like to be able to find a little out about his work history before we have our interview.
-
- ## Design
+## Design
 
 ### Colour Scheme
 
-The main colours used in this will be warm monotone colours;
-a warm off white, mid grey and dark grey:
-#F1F0E9
-#888786
-#2E2FE2
-
-For contrast, highlight colours will be used: 
-#D39447
-#714844
-
 ![Colours](/docs/colours.png)
 
-These colours have been chosen to symbolise professionalism, while the orange and deep red hark to vintage recording equipment. They are a visual representation of a cosy and inviting space in which clients can relax and give their best performance. They are also representative of the Studio space Chris uses to record and mix. 
-
+The main monotone pallete has been chosen to symbolise professionalism, while the orange and deep red hark to vintage recording equipment. They are a visual representation of a cosy and inviting space in which clients can relax and give their best performance. They are also representative of the Studio space Chris uses to record and mix. 
 
 ### Typography
+
+The paired fonts used in the website are Oswald and Barlow Condensed. These were imported directly into the CSS.
 
 ### Imagery
 
@@ -65,39 +63,88 @@ A hero image will be used on the home page which which will  draw the user’s a
 
 ## Wireframes
 
+The Wireframes were made using Balsamiq. The final site does have some differences due to the development process and changes requested by the Client.
+
 Mobile Wireframe [view](/docs/phonewireframe.pdf)
 
 Tablet Wireframe [view](/docs/tabletwireframe.pdf)
 
 Desktop Wireframe [view](/docs/dwireframe.pdf)
 
-
-
 ## Pages
 
-The website has the following pages
+The website has the following pages which are accessible from the Navigation Menu.
 
-- Home/ About
+- Home / About
 - Portfolio
 - Contact
 
+and a final page:
+
+- Submit
+
+This page is visible only on submitting the form. It is validation for the user, and also links back to the main pages for quick navigation and to keep the user on the site.
 
 ## Features
 
-- Responsive on various screens
-- Interactive elements
+- The Navigation bar is fully responsive and collapses to a "play" icon for mobile devices. The current active page is displayed in white with an underline, to reinforce with the user what page they are currently on.
+
+- The Home / About pages feature on a single scrolling page with links to return to the top navigation. The about page is linked separately in the Nav for easy navigation.
+
+- The Portfolio page features a grid to enable responsivity on several devices and showcase the albums Chris has produced. The albums all link and open new tabs to their information pages on https://www.discogs.com/
+
+- The Contact page form is designed to look like a guitar pedal, which is in keeping with the Design and Goals of the site. It is fully responsive and quick to fill out, to enable users to get in touch easily.
+
+- The Footer features links which open a new page to various social media links, including Chris' spotify showreel.
+
+- The site is fully responsive, featuring flexbox and media queries throughout to appear properly on various devices.
+
+## Future Features
+
+- A page featuring Chris' calendar would enable users to see his schedule and earmark dates for working together.
+
+- An embedded Spotify Player on the Portfolio page would enable users to hear Chris' work without navigating to a separate page.
 
 ## Technologies Used
+
+[HTML5](https://en.wikipedia.org/wiki/HTML5) provides main content and structure
+[CSS3](https://en.wikipedia.org/wiki/CSS) provides styling
+[Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) provides responsive Navbar
+[Google Fonts](https://fonts.google.com/about) used to import the fonts for the site
+[Font Awesome](https://fontawesome.com/) provides icons
+[Gitpod](https://gitpod.io/workspaces) IDE used to code and host the site
+[Github](https://github.com/) used to deploy the site
+[Photoshop CC 2020](https://www.adobe.com/uk/) used to resize and edit images
+[Balsamiq](https://balsamiq.com/wireframes/) for wireframes
+[Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) used to troubleshoot and test responsivity
 
 ## Validation and Testing
 
 ## Deployment
 
+This site is deployed to Github Pages.
+
+The process for deployment is as follows:
+
+1) Navigate to settings on the repository page on Github
+2) On the left side of the page, open the Pages tab
+3) Under 'branch' select 'main'
+4) Click 'save' to the right
+5) The page reloads with the deployment info at the top
+6) The website is now deployed and can be accessed on various devices.
+
+
 ## References
--info on how to change default bootstrap toggler https://stackoverflow.com/questions/42586729/how-can-i-change-the-bootstrap-4-navbar-button-icon-color
 
-How to darken an image: https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h
+I used a lot of further learning to build this site on 
 
-CSS Grid Tutorial: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
+- info on how to change default bootstrap toggler https://stackoverflow.com/questions/42586729/how-can-i-change-the-bootstrap-4-navbar-button-icon-color
 
-Var functions in CSS tutorial https://www.w3schools.com/css/css3_variables.asp
+- How to darken an image: https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h
+
+- CSS Grid Tutorial: https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
+
+- Var functions in CSS tutorial https://www.w3schools.com/css/css3_variables.asp
+
+- Smooth scroll css https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
+
