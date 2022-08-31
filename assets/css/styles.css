@@ -155,18 +155,19 @@ html {
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .about-bio {
   font-family: 'Barlow Condensed', sans-serif;
   color: var(--light);
   text-align: justify;
-  width: 30rem;;
+  width: 30rem;
 }
 
 .bio-image {
-  max-width:80%;
-  max-height:80%;
+  max-width:100%;
+  max-height:100%;
   padding: 1rem;
 }
 
@@ -386,7 +387,12 @@ footer ul {
     background-repeat: no-repeat;
     overflow: hidden;
     clear: both;
-    }
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
 }
 
 @media screen and (min-width: 781px) {
@@ -410,33 +416,36 @@ footer ul {
     clear: both;
     }
   
+  p {
+    font-size: 1.6rem;
+  }
   }
 
-  @media screen and (min-width: 1021px) {
-    .callout-container {
-      display: block;
-    }
+@media screen and (min-width: 1021px) {
+  .callout-container {
+    display: block;
+  }
 
-    .home-contact-button {
-      width: 16rem;
-    }
+  .home-contact-button {
+    width: 16rem;
+  }
 
-    .callout-text {
-      font-size: 10rem;
+  .callout-text {
+    font-size: 10rem;
+  }
+
+  .about-section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    clear: both;
     }
   
-    .about-section {
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      overflow: hidden;
-      clear: both;
-      }
-    
-    }
-
-
-
+  p {
+    font-size: 1.8rem;
+  }
+  }
 
 /* Portfolio Page changes for different screen sizes */
 @media screen and (min-width: 781px) {
