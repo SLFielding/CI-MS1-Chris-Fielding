@@ -120,6 +120,8 @@ This page is visible only on submitting the form. It is validation for the user,
 
 ## Validation and Testing
 
+For bugs please see [here]()
+
 ## Deployment
 
 This site is deployed to Github Pages.
