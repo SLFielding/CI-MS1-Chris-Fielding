@@ -98,20 +98,21 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 /* -------------------------------------------------callout container------------*/
 
 .callout-container {
   width: 100%;
-  height: 90vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   padding: 125px 25px 125px;
 }
 
 .callout-text-block {
-  max-width: 90%;
-  max-height: 90%;
+  width: 90%;
+  height: 90%;
   align-items: center;
 }
 
