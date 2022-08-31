@@ -379,9 +379,7 @@ footer ul {
   .callout-text {
     font-size: 6rem;
   }
-}
 
-@media screen and (min-width: 480px) {
   .about-section {
     background-position: center;
     background-size: cover;
@@ -389,7 +387,55 @@ footer ul {
     overflow: hidden;
     clear: both;
     }
+}
+
+@media screen and (min-width: 781px) {
+  .callout-container {
+    display: block;
   }
+
+  .home-contact-button {
+    width: 16rem;
+  }
+
+  .callout-text {
+    font-size: 8rem;
+  }
+
+  .about-section {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    clear: both;
+    }
+  
+  }
+
+  @media screen and (min-width: 1021px) {
+    .callout-container {
+      display: block;
+    }
+
+    .home-contact-button {
+      width: 16rem;
+    }
+
+    .callout-text {
+      font-size: 10rem;
+    }
+  
+    .about-section {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      clear: both;
+      }
+    
+    }
+
+
 
 
 /* Portfolio Page changes for different screen sizes */
