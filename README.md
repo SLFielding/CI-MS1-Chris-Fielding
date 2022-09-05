@@ -138,7 +138,7 @@ The process for deployment is as follows:
 
 ## References
 
-I used a lot of further learning to build this site on 
+I used a lot of further learning to build this site from the following: 
 
 - info on how to change default bootstrap toggler https://stackoverflow.com/questions/42586729/how-can-i-change-the-bootstrap-4-navbar-button-icon-color
 
@@ -149,4 +149,7 @@ I used a lot of further learning to build this site on
 - Var functions in CSS tutorial https://www.w3schools.com/css/css3_variables.asp
 
 - Smooth scroll css https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2
+
+- Code to place image directly on top of the image on Portfolio page:
+https://www.w3schools.com/howto/howto_css_image_text.asp
 
