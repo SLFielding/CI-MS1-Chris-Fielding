@@ -336,6 +336,10 @@ label {
   width: 50%;
 }
 
+textarea {
+  outline: none;
+}
+
 .input-text-area {
   width: 100%;
   min-height: 250px;
@@ -367,6 +371,11 @@ label {
   color: var(--orange);
   background-color:transparent ;
   border-color: var(--orange);
+}
+
+input[type=text], 
+[type=email]:focus {
+  outline: none;
 }
 
 /* -------------------------------------------------footer------------*/
