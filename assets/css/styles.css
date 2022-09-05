@@ -24,6 +24,7 @@ nav a:hover {
 
 #active {
   color: var(--white);
+  text-decoration: underline;
 }
 
 .nav-link {
