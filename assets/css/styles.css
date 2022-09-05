@@ -86,12 +86,26 @@ h2 {
   text-align: center;
 }
 
-/* -------------------------------------------------effects------------*/
+/* -------------------------------------------------effects/scrolling------------*/
 
 html {
   scroll-behavior: smooth;
 }
 
+.scroll-arrow {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.scroll-arrow i {
+  color: var(--red);
+}
+
+.scroll-arrow i:hover {
+  font-size: 75px;
+  transition: .2s ease-in-out;
+}
 /* -------------------------------------------------hero image------------*/
 
 .hero-image {
