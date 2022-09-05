@@ -34,6 +34,17 @@ nav a:hover {
     color: var(--grey);
 }
 
+.custom-toggler {
+  color: var(--white);
+  font-size: 40px;
+}
+
+.custom-toggler:active {
+  color: var(--red);
+  font-size: 42px;
+  transition: all 0.2s ease-in-out;
+}
+
 /* -------------------------------------------------colour functions------------*/
 
 :root {
