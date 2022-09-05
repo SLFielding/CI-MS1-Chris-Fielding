@@ -116,38 +116,24 @@ html {
 
 .image-container:hover {
   transform: scale(1.1,1.1);
-}
-
-.image {
-  opacity: 1;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-}
-
-.overlay {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.image-container:hover .image {
-  opacity: 0.5;
-}
-
-.image-container:hover .overlay {
-  opacity: 1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9));
 }
 
 .text {
   color: var(--white);
   font-family: "Oswald" , sans-serif;
-  text-align: center;
   font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;;
 }
+
+.text:hover {
+  opacity: 1;
+}
+
 /* -------------------------------------------------hero image------------*/
 
 .hero-image {
