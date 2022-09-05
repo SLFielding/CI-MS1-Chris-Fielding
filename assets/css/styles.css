@@ -116,7 +116,6 @@ html {
 
 .image-container:hover {
   transform: scale(1.1,1.1);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9));
 }
 
 .text {
@@ -127,7 +126,8 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 0;;
+  opacity: 0;
+  text-align: center;
 }
 
 .text:hover {
