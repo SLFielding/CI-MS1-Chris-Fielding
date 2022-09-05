@@ -312,6 +312,7 @@ label {
   border-radius: 0.25rem;
   color: var(--white);
   padding: 5px;
+  resize: none;
 }
 
 .input-text-area:hover {
