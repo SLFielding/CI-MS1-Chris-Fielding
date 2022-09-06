@@ -491,6 +491,10 @@ footer ul {
     display: block;
   }
 
+  .contact-button {
+    transition: 0.5s;
+  }
+
   .home-contact-button {
     width: 16rem;
     transition: 0.5s;
