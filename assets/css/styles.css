@@ -82,6 +82,10 @@ h2 {
   font-size: 1.6rem;
 }
 
+h3 {
+  font-size: 1.4rem;
+}
+
 .hr-bar {
   border: 2px solid var(--red);
   margin-left: auto;
@@ -382,12 +386,12 @@ input[type=text],
 
 .submit-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)),url(../images/skyhammer2b.png);
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: auto;
   margin-left: auto;
-  padding: 2rem;
+  padding: 20rem 2rem;
   height: 100%;
 }
 
@@ -408,6 +412,7 @@ input[type=text],
 .submit-page-button a {
   text-decoration: none;
   color: var(--dark);
+  font-size: 1.6rem;
 }
 
 .submit-page-button:hover {
