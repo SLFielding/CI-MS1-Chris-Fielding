@@ -273,6 +273,11 @@ html {
   display: grid;
 }
 
+.text p {
+  padding: 0;
+  margin: 0;
+}
+
 /* -------------------------------------------------contact page------------*/
 
 .contact-container {
