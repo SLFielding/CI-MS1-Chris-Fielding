@@ -97,6 +97,14 @@ h3 {
   text-align: center;
 }
 
+.topnav {
+  display: none;
+}
+
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
+
 /* -------------------------------------------------effects/scrolling------------*/
 
 html {
