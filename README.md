@@ -4,11 +4,13 @@ This website is for Music Producer Chris Fielding. It is built to be draw for po
 
 ## Live Site
 
+![Chris Fielding Responsive site Mockup](docs/device-generator-mockup.png)
+
 [View the live project here](https://slfielding.github.io/CI-MS1-Chris-Fielding/index.html#About)
 
 ## Repository
 
-[View the repositiry here](https://github.com/SLFielding/CI-MS1-Chris-Fielding)
+[View the repository here](https://github.com/SLFielding/CI-MS1-Chris-Fielding)
 
 ## Table of Contents
 - Overview and Goals
@@ -107,20 +109,21 @@ This page is visible only on submitting the form. It is validation for the user,
 
 ## Technologies Used
 
-[HTML5](https://en.wikipedia.org/wiki/HTML5) provides main content and structure
-[CSS3](https://en.wikipedia.org/wiki/CSS) provides styling
-[Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) provides responsive Navbar
-[Google Fonts](https://fonts.google.com/about) used to import the fonts for the site
-[Font Awesome](https://fontawesome.com/) provides icons
-[Gitpod](https://gitpod.io/workspaces) IDE used to code and host the site
-[Github](https://github.com/) used to deploy the site
-[Photoshop CC 2020](https://www.adobe.com/uk/) used to resize and edit images
-[Balsamiq](https://balsamiq.com/wireframes/) for wireframes
-[Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) used to troubleshoot and test responsivity
+-[HTML5](https://en.wikipedia.org/wiki/HTML5) provides main content and structure
+-[CSS3](https://en.wikipedia.org/wiki/CSS) provides styling
+-[Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) provides responsive Navbar
+-[Google Fonts](https://fonts.google.com/about) used to import the fonts for the site
+-[Font Awesome](https://fontawesome.com/) provides icons
+-[Gitpod](https://gitpod.io/workspaces) IDE used to code and host the site
+-[Github](https://github.com/) used to deploy the site
+-[Photoshop CC 2020](https://www.adobe.com/uk/) used to resize and edit images
+-[Balsamiq](https://balsamiq.com/wireframes/) for wireframes
+-[Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) used to troubleshoot and test responsivity
+-[Am I responsive](https://ui.dev/amiresponsive) used to create a site mockup on various devices
 
 ## Validation and Testing
 
-For bugs please see [here]()
+For bugs please see the separate testing file [here](TESTING.md)
 
 ## Deployment
 
