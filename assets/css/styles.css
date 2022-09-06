@@ -391,8 +391,17 @@ input[type=text],
   background-size: cover;
   margin-right: auto;
   margin-left: auto;
-  padding: 20rem 2rem;
+  padding: 15rem 2rem;
   height: 100%;
+}
+
+.submit-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5rem;
+  border-radius: 1%
 }
 
 .submit-page-button {
