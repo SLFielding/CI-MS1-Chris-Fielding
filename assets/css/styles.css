@@ -506,12 +506,12 @@ footer ul {
   }
 
   .contact-button {
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
   }
 
   .home-contact-button {
     width: 16rem;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
   }
 
   .callout-text {
