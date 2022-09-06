@@ -378,6 +378,50 @@ input[type=text],
   outline: none;
 }
 
+/* -------------------------------------------------submit page------------*/
+
+.submit-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)),url(../images/skyhammer2b.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2rem;
+  height: 100%;
+}
+
+.submit-page-button {
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+  border-radius: 0.25rem;
+  margin-top: 30px;
+  max-width: 30rem;
+  min-width: 10rem;
+  height: 60px;
+  font-family: "oswald" , sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.submit-page-button a {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.submit-page-button:hover {
+  color: var(--orange);
+  background-color:transparent ;
+  border-color: var(--orange);
+}
+
+.submit-page-button:hover a {
+  color: var(--orange);
+}
+
+
+
 /* -------------------------------------------------footer------------*/
 
 .footer-styles {
