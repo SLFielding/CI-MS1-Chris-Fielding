@@ -10,7 +10,7 @@
 # [Bugs and Fixes](#bugs-and-fixes)
 
 - When testing on different browsers, the portfolio page grid looked streched on Safari and some iPhones. Searching google, I found that this is a common problem with how the browser reads heights in the Grid. The solution was found [here](https://newbedev.com/why-is-css-grid-row-height-different-in-safari) which fixed the issue.
-[Safari issue](/docs/safariportfolio1.png)
+![Safari issue](/docs/safariportfolio1.png)
 
 # [Lighthouse Testing](#lighthouse-testing)
 
@@ -140,8 +140,27 @@ I fixed all these as per the guidelines and the site now passes all the tests up
 Changed all as per guidelines and now the page passes validation - "Document checking completed. No errors or warnings to show."
 
 ### portfolio.html
+- Error: Attribute aria not allowed on element a at this point.
+- Error: Attribute label not allowed on element a at this point.
+- Error: Attribute alt not allowed on element source at this point.
+- Error: Attribute type not allowed on element img at this point.
 
+Changed all as per guidelines and now the page passes validation - "Document checking completed. No errors or warnings to show."
 
+### contact.html
 
+The page passes validation - "Document checking completed. No errors or warnings to show."
+
+### submit.html
+
+- Error: The element a must not appear as a descendant of the button element.
+
+Changed the button element and set it in a form as per guidelines and now the page passes validation - "Document checking completed. No errors or warnings to show."
 
 ## [CSS Validator](#css-validator)
+
+The styles.css passes all the checks and is validated.
+The warnings are related to external style sheets and var(colors) in the root which cannot be validated.
+
+![css validation badge](docs/css-validation-badge.png)
+![css warnings](docs/css-validation-warnings.png)
