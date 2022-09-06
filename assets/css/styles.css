@@ -184,7 +184,6 @@ html {
   font-family: "oswald" , sans-serif;
   font-size: 2rem;
   display: inline;
-  transition: 0.5s;
 }
 
 .home-contact-button:hover {
@@ -494,6 +493,7 @@ footer ul {
 
   .home-contact-button {
     width: 16rem;
+    transition: 0.5s;
   }
 
   .callout-text {
