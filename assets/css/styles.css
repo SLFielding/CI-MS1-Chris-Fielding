@@ -119,7 +119,8 @@ html {
 }
 
 .image-container:hover {
-  transform: scale(1.1,1.1);
+  transform: scale(1.3,1.3);
+  transition: .2s ease-in-out;
 }
 
 .text {
