@@ -52,7 +52,7 @@ Added explicit width inline :
 
 ## portfolio.html
 
-### Desktop
+### Desktop portfolio.html
 - The page required accessibilty controls for ARIA - these have all been added.
 - Scroll to top #top needed hidden on css and aria controls.
 - The main image was also recommended to be changed to a next-gen format to speed loading, I have changed these images to webp with mentor Kera Cudmore's advice using www.birme.net and the advice found [here](https://www.stefanjudis.com/snippets/a-picture-element-to-load-correctly-resized-webp-images-in-html/)
@@ -63,7 +63,7 @@ The images have a back up for incompatible browsers.
 - Final Lighthouse score
 ![Final Lighthouse score](docs/lighthouse-desktop-portfolio.png)
 
-### Mobile
+### Mobile portfolio.html
 - All the above was actioned prior to the mobile testing. The performance is not as high as the desktop, but currently I can do nothing else to imporve this. Recommendations for a higher score include:
 
       > Eliminate render blocking resources (bootstrap served currently as minified css in head tag 0.93s)
@@ -72,6 +72,30 @@ The images have a back up for incompatible browsers.
 
 - Final Lighthouse score
 ![Final Lighthouse score](docs/lighthouse-mobile-portfolio.png)
+
+## contact.html
+
+### Desktop contact.html
+- The page required accessibilty controls for ARIA - these have all been added.
+- The bg image was also recommended to be changed to a next-gen format to speed loading, I have changed these images to webp with mentor Kera Cudmore's advice using www.birme.net and the advice found [here](https://www.stefanjudis.com/snippets/a-picture-element-to-load-correctly-resized-webp-images-in-html/)
+- 'Heading elements are not in a sequentially-descending order' so I changed the sub heading above the radio buttons from h3 to h2 to comply.
+- Other recommendations for increased performance:
+      > "Serve static assets with an efficient cache policy" but for the moment this is outside my area of knowlegde. I can look at this in the future.
+      > > EPreconnect to required origins (0.14s)
+
+- Final Lighthouse score
+![Final Lighthouse score](docs/lighthouse-desktop-contact.png)
+
+### Mobile contact.html
+- All the above was actioned prior to the mobile testing. The performance is not as high as the desktop, but currently I can do nothing else to imporve this. Recommendations for a higher score include:
+
+      > Eliminate render-blocking resources
+        (0.71 s)
+      > Reduce unused CSS (0.3s)
+      > Serve static assets with an efficient cache policy 
+
+- Final Lighthouse score
+![Final Lighthouse score](docs/lighthouse-mobile-contact.png)
 
 
 
