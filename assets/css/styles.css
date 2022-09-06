@@ -398,7 +398,7 @@ input[type=text],
 /* -------------------------------------------------submit page------------*/
 
 .submit-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)),url(../images/skyhammer2b.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)),url(../images/skyhammer2.webp);
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
