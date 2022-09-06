@@ -1,20 +1,20 @@
 # Testing
 
 ## Contents
-- Bugs and Fixes
-- Lighthouse Testing
-- Contrast Checker
-- HTML Validator
-- CSS Validator
+- [Bugs and Fixes](#bugs-and-fixes)
+- [Lighthouse Testing](#lighthouse-testing)
+- [Contrast Checker](#contrast-checker)
+- [HTML Validator](#html-validator)
+- [CSS Validator](#css-validator)
 
-# Bugs and Fixes
+# [Bugs and Fixes](#bugs-and-fixes)
 
 - When testing on different browsers, the portfolio page grid looked streched on Safari and some iPhones. Searching google, I found that this is a common problem with how the browser reads heights in the Grid. The solution was found [here](https://newbedev.com/why-is-css-grid-row-height-different-in-safari) which fixed the issue.
 [Safari issue](/docs/safariportfolio1.png)
 
-# Lighthouse Testing
+# [Lighthouse Testing](#lighthouse-testing)
 
-## index.html
+## [index.html]
 
 ### Desktop index.html
 - The index page required accessibilty controls for ARIA - these have all been added.
@@ -119,3 +119,29 @@ The images have a back up for incompatible browsers.
 - Final Lighthouse score
 ![Final Lighthouse score](docs/lighthouse-mobile-submit.png)
 
+## [Contrast Checker](#contrast-checker)
+
+I used the WCAG Contrast checker which initally had issues with:
+- Colours I was using not providing enough contrast
+- Button colours (eg orange button with white font) being hard to read
+- p elements being too small
+- Collapsed Nav being too small
+
+I fixed all these as per the guidelines and the site now passes all the tests up to 'AAA'
+
+## [HTML Validator](#html-validator)
+
+### index.html
+- Error: Attribute alt not allowed on element source at this point.
+- Error: Bad value auto for attribute height on element source: Expected a digit but saw a instead.
+- Error: Attribute type not allowed on element img at this point.
+- Error: Bad value auto for attribute height on element img: Expected a digit but saw a instead.
+
+Changed all as per guidelines and now the page passes validation - "Document checking completed. No errors or warnings to show."
+
+### portfolio.html
+
+
+
+
+## [CSS Validator](#css-validator)
