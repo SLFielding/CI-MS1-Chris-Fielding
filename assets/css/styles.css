@@ -127,6 +127,8 @@ html {
   transition: .2s ease-in-out;
 }
 
+/* Code to place text directly on top of image - adapted from https://www.w3schools.com/howto/howto_css_image_text.asp */
+
 .text {
   color: white;
   font-family: "Oswald" , sans-serif;
@@ -142,11 +144,15 @@ html {
   margin-bottom: 0;
 }
 
+/* End of code to place text directly on top of image - adapted from https://www.w3schools.com/howto/howto_css_image_text.asp */
+
 .text:hover {
   opacity: 1;
 }
 
 /* -------------------------------------------------hero image------------*/
+
+/* linear gradient code to darken image from https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../images/skyhammer1.webp);
@@ -207,6 +213,7 @@ html {
   padding: 1rem;
 }
 
+/* linear gradient code to darken image from https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
 .about-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../images/skyhammer3.webp);
   background-position: left;
@@ -240,6 +247,7 @@ html {
   text-align: center;
 }
 
+/* linear gradient code to darken image from https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
 .portfolio-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../images/skyhammer1.webp);
   background-position: center;
@@ -288,6 +296,7 @@ html {
 
 /* -------------------------------------------------contact page------------*/
 
+/* linear gradient code to darken image from https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
 .contact-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)),url(../images/skyhammer2.webp);
   background-position: left;
@@ -396,6 +405,7 @@ input[type=text],
 
 /* -------------------------------------------------submit page------------*/
 
+/* linear gradient code to darken image from https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
 .submit-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)),url(../images/skyhammer2.webp);
   background-position: left;
@@ -594,7 +604,3 @@ footer ul {
     grid-template-rows: repeat(4, 1fr);
   }
 }
-
-@media screen and (max-width: 1020px) { /* Large Desktop */ }
-@media screen and (max-width: 780px) { /* tablet */ }
-@media screen and (max-width: 480px) { /* mobile */ }
