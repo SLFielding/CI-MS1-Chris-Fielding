@@ -14,6 +14,8 @@
 
 - After editing the page as per Lighthouse testing recommendations, I set the image in the About section to have explicit width and height in order to help the image load more efficiently. This in conjunction with the css max-width:100% and max-height:100% causes the image to be streched on mobile. Changing these to width:100% and height:100% seems to have fixed the issue.
 
+- This error above was still persistent after this, so I removed the explicit width and height from inline on the index.html and it seems to be functioning fine now. It may slightly affect the lighthouse score but it is working.
+
 # [Lighthouse Testing](#lighthouse-testing)
 
 ## [index.html]
