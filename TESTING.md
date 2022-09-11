@@ -3,6 +3,10 @@
 ## Contents
 - [Bugs and Fixes](#bugs-and-fixes)
 - [Lighthouse Testing](#lighthouse-testing)
+      - [index.html](#index-html)
+      - [portfolio.html](#portfolio-html)
+      - [contact.html](#contact-html)
+      - [submit.html](#submit-html)
 - [Contrast Checker](#contrast-checker)
 - [HTML Validator](#html-validator)
 - [CSS Validator](#css-validator)
@@ -21,7 +25,9 @@
 
 # [Lighthouse Testing](#lighthouse-testing)
 
-## [index.html]
+## [index.html](#index-html)
+
+***
 
 ### Desktop index.html
 - The index page required accessibilty controls for ARIA - these have all been added.
@@ -57,7 +63,10 @@ Added explicit width inline :
 - Final Lighthouse score
 ![Final Lighthouse score](docs/lighthouse-mobile.png)
 
-## portfolio.html
+
+## [portfolio.html](#portfolio-html)
+
+*** 
 
 ### Desktop portfolio.html
 - The page required accessibilty controls for ARIA - these have all been added.
@@ -80,7 +89,9 @@ The images have a back up for incompatible browsers.
 - Final Lighthouse score
 ![Final Lighthouse score](docs/lighthouse-mobile-portfolio.png)
 
-## contact.html
+## [contact.html](#contact-html)
+
+***
 
 ### Desktop contact.html
 - The page required accessibilty controls for ARIA - these have all been added.
@@ -103,7 +114,9 @@ The images have a back up for incompatible browsers.
 - Final Lighthouse score
 ![Final Lighthouse score](docs/lighthouse-mobile-contact.png)
 
-## submit.html
+## [submit.html](#submit-html)
+
+***
 
 ### Desktop submit.html
 - The page required accessibilty controls for ARIA - these have all been added.
@@ -128,6 +141,8 @@ The images have a back up for incompatible browsers.
 
 ## [Contrast Checker](#contrast-checker)
 
+***
+
 I used the WCAG Contrast checker which initally had issues with:
 - Colours I was using not providing enough contrast
 - Button colours (eg orange button with white font) being hard to read
@@ -137,6 +152,8 @@ I used the WCAG Contrast checker which initally had issues with:
 I fixed all these as per the guidelines and the site now passes all the tests up to 'AAA'
 
 ## [HTML Validator](#html-validator)
+
+***
 
 ### index.html
 - Error: Attribute alt not allowed on element source at this point.
@@ -166,6 +183,8 @@ Changed the button element and set it in a form as per guidelines and now the pa
 
 ## [CSS Validator](#css-validator)
 
+***
+
 The styles.css passes all the checks and is validated.
 The warnings are related to external style sheets and var(colors) in the root which cannot be validated.
 
@@ -174,6 +193,35 @@ The warnings are related to external style sheets and var(colors) in the root wh
 
 ## [Responsiveness](#responsiveness)
 
+I tested the site on a range of devices with feedback from family and friends.
+
+The devices checked on were:
+
+- iphone 6,7,8,10,11,12
+- ipad air
+- macbook pro
+- desktop mac
+
+I also tested the site emulated on various devices with Chrome Dev Tools. These included:
+
+- Iphone SE, XR, 12pro
+- Pixel 5
+- Samsung Galaxy S8, S20 Ultra, A51/71
+- ipad Mini
+- Surface pro 7 & duo
+- Galaxy Fold
+- Nest Hub & Hub Max
+
+Any layout issues had media queries added, various element sizing changes etc to fix them and I cannot see any issues currently.
+
+***
+
 ## [Browser Compatibility](#compatibility)
 
+
+
+***
+
 ## [Testing User Stories](user-stories)
+
+***
