@@ -427,6 +427,7 @@ input[type=text],
 }
 
 .submit-page-button {
+  color: var(--dark);
   background-color: var(--orange);
   border: 1px solid var(--orange);
   border-radius: 0.25rem;
