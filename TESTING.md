@@ -6,6 +6,9 @@
 - [Contrast Checker](#contrast-checker)
 - [HTML Validator](#html-validator)
 - [CSS Validator](#css-validator)
+- [Responsiveness](#responsiveness)
+- [Browser Compatibility](#compatibility)
+- [Testing User Stories](user-stories)
 
 # [Bugs and Fixes](#bugs-and-fixes)
 
@@ -28,16 +31,16 @@
 - The code is as follows:
 ````
         <picture>
-          <source srcset="assets/images/conan-evidence-of-immortality.webp"     alt="conan-evidence of immortality cover" class="image" type="image/webp">
-          <img src="assets/images/conan-evidence-of-immortality.jpg"    alt="conan-evidence of immortality cover" class="image" type="image/jpg">
+          <source srcset="assets/images/conan-evidence-of-immortality.webp"     class="image" type="image/webp">
+          <img src="assets/images/conan-evidence-of-immortality.jpg"    alt="conan-evidence of immortality cover" class="image">
         </picture>
 ````
 - 'Image elements do not have explicit width and height' - fixed with advice from [here. ](https://dev.to/grahamthedev/quick-tips-how-to-fix-image-elements-do-not-have-explicit-width-and-height-in-page-speed-insights-lighthouse-3776#:~:text=All%20you%20need%20to%20do,the%20image%20before%20it%20loads.)
 Added explicit width inline :
           
         <picture>
-          <source srcset="assets/images/chrisfielding1.webp" alt="Chris Fielding playing bass with Conan" type="image/webp" width="601" height="auto">
-          <img src="assets/images/chrisfielding1.png" alt="Chris Fielding playing bass with Conan" type="image/png" width="601" height="auto">
+          <source srcset="assets/images/chrisfielding1.webp" type="image/webp" width="601" height="auto">
+          <img src="assets/images/chrisfielding1.png" alt="Chris Fielding playing bass with Conan" width="601" height="auto">
         </picture>
 
 - Final Lighthouse score
@@ -168,3 +171,9 @@ The warnings are related to external style sheets and var(colors) in the root wh
 
 ![css validation badge](docs/css-validation-badge.png)
 ![css warnings](docs/css-validation-warnings.png)
+
+## [Responsiveness](#responsiveness)
+
+## [Browser Compatibility](#compatibility)
+
+## [Testing User Stories](user-stories)
