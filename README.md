@@ -186,6 +186,7 @@ This page is visible only on submitting the form. It is validation for the user,
 - [Balsamiq](https://balsamiq.com/wireframes/) for wireframes
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) used to troubleshoot and test responsivity
 - [Am I responsive](https://ui.dev/amiresponsive) used to create a site mockup on various devices
+- [Coolors](https://coolors.co/) used to create color palette
 
 ***
 
