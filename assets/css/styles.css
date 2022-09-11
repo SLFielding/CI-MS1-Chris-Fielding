@@ -155,7 +155,7 @@ html {
 /* linear gradient code to darken image from https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../images/skyhammer1.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../images/skyhammera.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -215,7 +215,7 @@ html {
 
 /* linear gradient code to darken image from https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
 .about-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../images/skyhammer3.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../images/skyhammerc.webp);
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -249,7 +249,7 @@ html {
 
 /* linear gradient code to darken image from https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
 .portfolio-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../images/skyhammer1.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.9)), url(../images/skyhammera.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -298,7 +298,7 @@ html {
 
 /* linear gradient code to darken image from https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
 .contact-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)),url(../images/skyhammer2.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)),url(../images/skyhammerb.webp);
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;;
@@ -407,7 +407,7 @@ input[type=text],
 
 /* linear gradient code to darken image from https://dev.to/nazanin_ashrafi/how-to-darken-an-image-with-css-4f5h */
 .submit-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)),url(../images/skyhammer2.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.2)),url(../images/skyhammerb.webp);
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
