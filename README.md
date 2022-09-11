@@ -242,7 +242,7 @@ The process of cloning is as follows:
 - Bio image of Chris Fielding is taken by Simon Kallas and approved for free use on the site.
 - All other images are taken by me and editied in Photoshop to fit the aesthetic of the site.
 - Inspiration for this README came from https://github.com/TashaTJ/pawsome-portraits-v4#key-project-goals
-- Thanks also to my fan mentor Harry for all the help and advice!
+- Thanks also to my fab mentor Harry for all the help and advice!
 
 ***
 
