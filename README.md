@@ -1,13 +1,9 @@
 # Chris Fielding Music Producer Website
 
-***
-
 This is a website for Music Producer Chris Fielding. 
 It is built to attract potential clients, who can find out information and get in touch with Chris to work with him.
 
 ## Live Site
-
-***
 
 ![Chris Fielding Responsive site Mockup](docs/device-generator-mockup.png)
 
@@ -15,11 +11,8 @@ It is built to attract potential clients, who can find out information and get i
 
 ## Repository
 
-***
-
 [View the repository here](https://github.com/SLFielding/CI-MS1-Chris-Fielding)
 
-***
 
 ## Table of Contents
 - [Overview and Goals](#overview-and-goals)
