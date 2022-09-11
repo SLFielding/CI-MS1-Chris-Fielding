@@ -141,14 +141,25 @@ This page is visible only on submitting the form. It is validation for the user,
 ## [Features](#features)
 
 - The Navigation bar is fully responsive and collapses to a "play" icon for mobile devices. The current active page is displayed in white with an underline, to reinforce with the user what page they are currently on.
+![Navbar on mobile screens](docs/nav-collapse.png)
+![Navbar on larger screens](docs/nav-open.png)
 
-- The Home / About pages feature on a single scrolling page with links to return to the top navigation. The about page is linked separately in the Nav for easy navigation.
+- The Home / About pages feature on a single scrolling page with links to return to the top navigation. The links grow on a hover to help the User navigate more easily. The about page is also linked separately in the Nav for easy navigation.
 
-- The Portfolio page features a grid to enable responsivity on several devices and showcase the albums Chris has produced. The albums all link and open new tabs to their information pages on https://www.discogs.com/
+![Navigate down](docs/nav-down.png)
+![Navigate up](docs/nav-up.png)
 
-- The Contact page form is designed to look like a guitar pedal, which is in keeping with the Design and Goals of the site. It is fully responsive and quick to fill out, to enable users to get in touch easily.
+- The Portfolio page features a grid to enable responsivity on several devices and showcase the albums Chris has produced. On hovering over the images, the name of the album is displayed for ease of reading. All the font is readable on each album.
 
-- The Footer features links which open a new page to various social media links, including Chris' spotify showreel.
+![Portfolio hover effect](docs/portfolio-hover.png)
+
+- The Contact page is fully responsive and quick to fill out, to enable users to get in touch easily. Every section is validated to make sure all info needed is submitted. Completion of this page opens submit.html, a submit page that validates the user's message. 
+
+![Contact form](/docs/contact-form.png)
+
+- The Footer features links which open a new page to various social media links, including Chris' spotify showreel. This is on every page to give the user quick access to other information.
+
+![Footer](/docs/footer-img.png)
 
 - The site is fully responsive, featuring flexbox and media queries throughout to appear properly on various devices.
 
@@ -161,6 +172,8 @@ This page is visible only on submitting the form. It is validation for the user,
 - An embedded Spotify Player on the Portfolio page would enable users to hear Chris' work without navigating to a separate page.
 
 - I would like to add another scrolling page on index.html with a run down of each production / mixing / mastering services
+
+- When my learning has developed, I would like to complete the back-end to this site with a fully functioning submit button on the contact page.
 
 ***
 
