@@ -9,9 +9,12 @@ It is built to attract potential clients, who can find out information and get i
 
 [View the live project here](https://slfielding.github.io/CI-MS1-Chris-Fielding/index.html#About)
 
+***
+
 ## Repository
 
 [View the repository here](https://github.com/SLFielding/CI-MS1-Chris-Fielding)
+***
 
 
 ## Table of Contents
@@ -40,6 +43,8 @@ It is built to attract potential clients, who can find out information and get i
 ***
 
 ## [Overview and Goals](#overview-and-goals)
+
+***
 
 ### [Project Goals](#project-goals)
 
@@ -76,8 +81,6 @@ As a user I would like to be able to:
 - Learn about Chris' background
 - Be inspired by the imagery
 - Find social links easily to follow/contact Chris
-
-***
 
 ## [Design](#design)
 
