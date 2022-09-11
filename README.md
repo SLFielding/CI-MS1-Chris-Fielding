@@ -1,15 +1,21 @@
 # Chris Fielding Music Producer Website
 
+***
+
 This is a website for Music Producer Chris Fielding. 
 It is built to attract potential clients, who can find out information and get in touch with Chris to work with him.
 
 ## Live Site
+
+***
 
 ![Chris Fielding Responsive site Mockup](docs/device-generator-mockup.png)
 
 [View the live project here](https://slfielding.github.io/CI-MS1-Chris-Fielding/index.html#About)
 
 ## Repository
+
+***
 
 [View the repository here](https://github.com/SLFielding/CI-MS1-Chris-Fielding)
 
@@ -25,16 +31,25 @@ It is built to attract potential clients, who can find out information and get i
 - Deployment
 - References
 
+***
+
 ## Overview and Goals
+
+***
+
 ### Project Goals
 
 Chris is in need of a website, which will be the main port and call for new clients. Whilst existing clients are likely to send him an email, new clients should have the opportunity to find out information on Chris and be able to send him an email from the site. Most users visiting the site will be looking to hire Chris for Producing, Mixing or Mastering. Every project has to be priced individually dependent on client specifications, and this is done via email or phone. The site also needs to contain relevant information about Chris, including a bio, portfolio of work, and a link to his discography. 
 The site should have intuitive navigation, so that enquiries are able to be submitted to Chris efficiently.  It should also be responsive across multiple well known devices including phone, tablet and desktop.
 
+***
+
 ### Business Goals
 
 The main goal for this website is to increase traffic and enquiries for Chris, which will increase bookings and therefore revenue. 
 The website will look professional and this will also contribute to increased bookings and revenue.
+
+***
 
 ### Target Audience
 
@@ -43,6 +58,8 @@ The target audience is bands and musicians of between 20-55 who are looking to r
 ***
 
 ## Design and UX
+
+***
 
 ### User Stories
 
@@ -56,7 +73,11 @@ As a user I would like to be able to:
 - Be inspired by the imagery
 - Find social links easily to follow/contact Chris
 
+***
+
 ## Design
+
+***
 
 ### Colour Scheme
 
@@ -64,9 +85,13 @@ As a user I would like to be able to:
 
 The main monotone pallete has been chosen to symbolise professionalism, while the orange and deep red hark to vintage recording equipment. They are a visual representation of a cosy and inviting space in which clients can relax and give their best performance. They are also representative of the Studio space Chris uses to record and mix. 
 
+***
+
 ### Typography
 
 The paired fonts used in the website are Oswald and Barlow Condensed. These were imported directly into the CSS.
+
+***
 
 ### Imagery
 
@@ -163,6 +188,8 @@ The process for deployment is as follows:
 5) The page reloads with the deployment info at the top
 6) The website is now deployed and can be accessed on various devices.
 
+***
+
 ## Forking
 
 The process of forking is as follows:
@@ -170,6 +197,8 @@ The process of forking is as follows:
 1) Log into GitHub and locate the repository
 2) On the upper right hand of the page, select fork
 3) A copy of the original can now be created and developed
+
+***
 
 ## Cloning
 
@@ -192,6 +221,8 @@ The process of cloning is as follows:
 - Bio image of Chris Fielding is taken by Simon Kallas and approved for free use on the site.
 - All other images are taken by me and editied in Photoshop to fit the aesthetic of the site.
 - Inspiration for this README came from https://github.com/TashaTJ/pawsome-portraits-v4#key-project-goals
+
+***
 
 ## References
 
