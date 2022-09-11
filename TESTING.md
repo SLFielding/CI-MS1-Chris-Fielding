@@ -218,10 +218,58 @@ Any layout issues had media queries added, various element sizing changes etc to
 
 ## [Browser Compatibility](#compatibility)
 
-
+The site was tested on Google Chrome, Safari and Firefox. I also tested with these browsers on an iPhone 11 and no layout issues were found.
 
 ***
 
 ## [Testing User Stories](user-stories)
+
+ 1) **Understand the purpose of the site upon landing on the homepage:**
+
+- The main three keywords associated with the site 'production, mixing, mastering,' are large and visible upon landing on the homepage.
+- The backgound image is of a mixing console which further defines the purpose as the user associates this image with recording equipment.
+![Home page](docs/ux-home-page.png)
+
+2) **Navigate to the various pages easily and intuitively:**
+
+- The navigation menu is easily accessible at the top of every page. The Nav bar also collapses to a toggle button for good design on mobile.
+![Nav menu](docs/nav-collapse.png)
+- The active page is highlighted and also underlined so that the user can quickly see what page they are on.
+![Nav active](docs/nav-open.png)
+- Longer pages, where the nav bar is no longer visble, feature scroll to top arrows which link the user straight back to the top of the page, where the Nav can be easily accessed once again.
+![Nav scroll](docs/nav-up.png)
+
+3) **Be able to contact Chris easily:**
+
+- The contact page is reachable from every other page through the Nav bar.
+- The contact page form is quick to fill in with only a few sections, so not an overwhelming amount of information is required from the user to get in touch.
+![Contact form](docs/contact-form.png)
+
+4) **Find out about Chris' current work:**
+
+- The portfolio page is accessible from every other page and features a responsive grid with a selection of albums Chris has worked on. Full information obout the album is avaiable on hovering (desktop) clicking (mobile)
+![Responsive grid](docs/portfolio-hover.png)
+
+- The portfolio page has a link to Chris' spotify playlist Showreel, an 'audio cv' featuring tracks he has worked on. 
+- It also has a link to Chris' 'discogs', an external site that lists all the albums he has worked on.
+![Portfolio links](docs/portfolio-links.png)
+
+
+5) **Learn about Chris' background:**
+
+- The about section has an image of Chris and some information about his background.
+- Users can also find out more information by using the social links/discogs links provided in the footer and portfolio page.
+
+6) **Be inspired by the imagery:**
+
+- All the background imagery is in black and white and of recording equipment. It satisfies the user athat the kind of hardware used in Chris' recording process is of high quality. 
+
+7) **Find social links easily to follow/contact Chris:**
+
+- The footer contains social links on every page. All links open to a new tab and change colour on hover so the user knows where they are.
+![Social links](docs/footer-img.png)
+
+Back to [Readme](README.md)
+
 
 ***
