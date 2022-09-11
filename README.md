@@ -22,46 +22,57 @@ It is built to attract potential clients, who can find out information and get i
 ***
 
 ## Table of Contents
-- Overview and Goals
-- Design and UX
-- Pages
-- Features
-- Technologies Used
-- Validation and Testing
-- Deployment
-- References
+- [Overview and Goals](#overview-and-goals)
+    - [Project Goals](#project-goals)
+    - [Business Goals](#business-goals)
+    - [Target Audience](#target-audience)
+- [Design and UX](#design-and-ux)
+    - [User stories](#user-stories)
+    - [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Wireframes](#wireframes)
+- [Pages](#pages)
+- [Features](#features)
+    - [Future Features](#future-features)
+- [Technologies Used](#technologies-used)
+- [Validation and Testing](#validation-and-testing)
+- [Deployment](#deployment)
+    - [Forking](#forking)
+    - [Cloning](#cloning)
+- [Credits](#credits)
+    - [References](#references)
 
 ***
 
-## Overview and Goals
+## [Overview and Goals](#overview-and-goals)
 
-***
-
-### Project Goals
+### [Project Goals](#project-goals)
 
 Chris is in need of a website, which will be the main port and call for new clients. Whilst existing clients are likely to send him an email, new clients should have the opportunity to find out information on Chris and be able to send him an email from the site. Most users visiting the site will be looking to hire Chris for Producing, Mixing or Mastering. Every project has to be priced individually dependent on client specifications, and this is done via email or phone. The site also needs to contain relevant information about Chris, including a bio, portfolio of work, and a link to his discography. 
 The site should have intuitive navigation, so that enquiries are able to be submitted to Chris efficiently.  It should also be responsive across multiple well known devices including phone, tablet and desktop.
 
 ***
 
-### Business Goals
+### [Business Goals](#business-goals)
 
 The main goal for this website is to increase traffic and enquiries for Chris, which will increase bookings and therefore revenue. 
 The website will look professional and this will also contribute to increased bookings and revenue.
 
 ***
 
-### Target Audience
+### [Target Audience](#target-audience)
 
 The target audience is bands and musicians of between 20-55 who are looking to record, mix or master an album.
 
 ***
 
-## Design and UX
+## [Design and UX](#design-and-ux)
 
 ***
 
-### User Stories
+### [User stories](#user-stories)
 
 As a user I would like to be able to:
 
@@ -75,11 +86,11 @@ As a user I would like to be able to:
 
 ***
 
-## Design
+## [Design](#design)
 
 ***
 
-### Colour Scheme
+### [Colour Scheme](#colour-scheme)
 
 ![Colours](/docs/chris-fielding-palette.png)
 
@@ -87,19 +98,19 @@ The main monotone pallete has been chosen to symbolise professionalism, while th
 
 ***
 
-### Typography
+### [Typography](#typography)
 
 The paired fonts used in the website are Oswald and Barlow Condensed. These were imported directly into the CSS.
 
 ***
 
-### Imagery
+### [Imagery](#imagery)
 
 A hero image will be used on the home page which which will  draw the user’s attention and give a strong visual representation of the site's purpose. The image will be of Chris' mixing desk and other periphary equipment. The image will be in black and white.
 
 ***
 
-## Wireframes
+## [Wireframes](#wireframes)
 
 The Wireframes were made using Balsamiq. The final site does have some differences due to the development process and changes requested by the Client.
 
@@ -111,7 +122,7 @@ Desktop Wireframe [view](/docs/dwireframe.pdf)
 
 ***
 
-## Pages
+## [Pages](#pages)
 
 The website has the following pages which are accessible from the Navigation Menu.
 
@@ -127,7 +138,7 @@ This page is visible only on submitting the form. It is validation for the user,
 
 ***
 
-## Features
+## [Features](#features)
 
 - The Navigation bar is fully responsive and collapses to a "play" icon for mobile devices. The current active page is displayed in white with an underline, to reinforce with the user what page they are currently on.
 
@@ -143,7 +154,7 @@ This page is visible only on submitting the form. It is validation for the user,
 
 ***
 
-## Future Features
+## [Future Features](#future-features)
 
 - A page featuring Chris' calendar would enable users to see his schedule and earmark dates for working together.
 
@@ -153,7 +164,7 @@ This page is visible only on submitting the form. It is validation for the user,
 
 ***
 
-## Technologies Used
+## [Technologies Used](#technologies-used)
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) provides main content and structure
 - [CSS3](https://en.wikipedia.org/wiki/CSS) provides styling
@@ -169,13 +180,13 @@ This page is visible only on submitting the form. It is validation for the user,
 
 ***
 
-## Validation and Testing
+## [Validation and Testing](#validation-and-testing)
 
 For bugs please see the separate testing file [here](TESTING.md)
 
 ***
 
-## Deployment
+## [Deployment](#deployment)
 
 This site is deployed to Github Pages.
 
@@ -190,7 +201,7 @@ The process for deployment is as follows:
 
 ***
 
-## Forking
+## [Forking](#forking)
 
 The process of forking is as follows:
 
@@ -200,7 +211,7 @@ The process of forking is as follows:
 
 ***
 
-## Cloning
+## [Cloning](#cloning)
 
 The process of cloning is as follows:
 
@@ -215,16 +226,17 @@ The process of cloning is as follows:
 
 ***
 
-# Credits
+# [Credits](#credits)
 
 - All album images on the Porfolio page are taken from https://www.discogs.com/ a music database with open public contribution.
 - Bio image of Chris Fielding is taken by Simon Kallas and approved for free use on the site.
 - All other images are taken by me and editied in Photoshop to fit the aesthetic of the site.
 - Inspiration for this README came from https://github.com/TashaTJ/pawsome-portraits-v4#key-project-goals
+- Thanks also to my fan mentor Harry for all the help and advice!
 
 ***
 
-## References
+## [References](#references)
 
 I used a lot of further learning on top of my Code Institute course to build this site from the following: 
 
