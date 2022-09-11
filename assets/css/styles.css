@@ -411,19 +411,19 @@ input[type=text],
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 15rem 2rem;
-  height: 100%;
+  padding: 2rem;
+  height: 80vh;
 }
 
 .submit-bg {
   background-color: rgba(0, 0, 0, 0.8);
   max-width: 500px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 5rem;
-  border-radius: 1%
+  padding: 2rem;
+  border-radius: 1%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .submit-page-button {
